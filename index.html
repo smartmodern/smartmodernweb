@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SmartModern Technology Consultants — IT Consulting</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="SmartModern — professional IT strategy, cloud migration, managed services and cybersecurity." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>SmartModern</h1>
+        <p class="tagline">Clear strategy. Reliable execution. Secure systems.</p>
+      </div>
+      <nav class="contact">
+        <a class="phone" href="tel:+85268223357">📞 +852 6822 3357</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container hero-inner">
+      <section class="intro">
+        <h2>Helping businesses modernize technology</h2>
+        <p>We design secure, scalable IT solutions for small and medium organizations — cloud migration, managed services, and cybersecurity made practical.</p>
+        <a class="cta" href="#contact">Get a free consultation</a>
+      </section>
+
+      <aside class="services" aria-labelledby="services-title">
+        <h3 id="services-title">Services</h3>
+        <ul>
+          <li><strong>Cloud Strategy & Migration</strong> — planning and execution to reduce risk and cost.</li>
+          <li><strong>Managed IT Services</strong> — 24/7 monitoring, patching, and support.</li>
+          <li><strong>Cybersecurity</strong> — assessments, SIEM, hardening, and incident response.</li>
+          <li><strong>Application Modernization</strong> — containerization, CI/CD, and performance tuning.</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h3>About SmartModern Technology Consultants</h3>
+      <p>We combine practical engineering, strong project governance, and clear communication to deliver predictable IT outcomes. Our consultants have experience across cloud platforms, enterprise networks, and security operations.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <div class="container">
+      <h3>Contact</h3>
+      <p><strong>Phone</strong>: <a href="tel:+85212345678">+852 1234 5678</a></p>
+      <p><strong>Email</strong>: <a href="mailto:enquire@smartmoderntech.com">enquire@smartmoderntech.com</a></p>
+
+      <form class="simple-form" action="mailto:enquire@smartmoderntech.com" method="post" enctype="text/plain">
+        <label>
+          Your name
+          <input name="name" type="text" required />
+        </label>
+        <label>
+          Company
+          <input name="company" type="text" />
+        </label>
+        <label>
+          Brief message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SmartModern Technology Consultants— All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
